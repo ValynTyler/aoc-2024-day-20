@@ -5,4 +5,6 @@ edition = "2021"
 
 [dependencies]
 colored = "2.2.0"
+
+nerd = { git="https://github.com/valyntyler/nerd-rs.git" }
 utf8-box-builder = { git="https://github.com/valyntyler/utf8-box-builder.git" }
