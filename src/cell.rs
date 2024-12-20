@@ -1,4 +1,4 @@
-use core::fmt::{self, Debug};
+use core::fmt::Debug;
 use std::fmt::Display;
 
 pub struct NonMazeElementError;
