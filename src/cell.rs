@@ -5,6 +5,7 @@ use colored::Colorize;
 
 pub struct NonMazeElementError;
 
+#[derive(Clone, Copy)]
 pub enum Cell {
     Start,
     End,
