@@ -1,6 +1,8 @@
 use core::fmt::Debug;
 use std::fmt::Display;
 
+use colored::Colorize;
+
 pub struct NonMazeElementError;
 
 pub enum Cell {
@@ -24,9 +26,9 @@ impl Debug for Cell {
 impl Display for Cell {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
         match self {
-            Cell::Start => write!(f, "{}", '󰐃'),
-            Cell::End   => write!(f, "{}", ''),
-            Cell::Track => write!(f, "{}", '.'),
+            Cell::Start => write!(f, "{}", "󰐃".green()),
+            Cell::End   => write!(f, "{}", "".purple()),
+            Cell::Track => write!(f, "{}", ".".bright_black()),
             Cell::Wall  => write!(f, "{}", '#'),
         }
     }
