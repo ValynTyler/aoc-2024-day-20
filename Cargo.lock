@@ -12,4 +12,4 @@ dependencies = [
 [[package]]
 name = "utf8-box-builder"
 version = "0.1.0"
-source = "git+https://github.com/valyntyler/utf8-box-builder.git#0254b38944badff476168130310df864ec1b6460"
+source = "git+https://github.com/valyntyler/utf8-box-builder.git#10159752ef1f150361acb16f9d0bd49982ae9d6b"
